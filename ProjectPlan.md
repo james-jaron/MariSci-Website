@@ -1,4 +1,4 @@
-## Project Plan | The website must contain the following:
+## The website must contain the following:
 **about us section**
 - school profile
 - current faculty (placeholder)
@@ -33,7 +33,7 @@
 
 **application section**
 - admission dates
-- register for exam (can hyperlink a google form for this one or just a file or hyperlink of the necessary requirements for applying)
+- register for exam (can hyperlink a google form for this one or just a file/hyperlink of the necessary requirements for applying)
 
  **AI chatbot**
 - can give information about the website when given prompts
