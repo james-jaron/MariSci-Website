@@ -4,11 +4,53 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>MSHS | Marikina Science High School</title>
+  <!-- Title subject to change -->
 
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <!-- hello world -->
+  <!-- 
+  Note: I am currently just following the layering in figma and translating each layer into html
+  i.e. it shows if we should use <nav> or <div> tag there
+  PS. I omitted some <div> tags if they only had a single <p> in them (not sure if this'll break anything)
+
+  *See #8 add css on Backlog for the id='' and class='' tags
+  Feel free to edit/change any tags as needed
+  -->
+
+  <!-- Navigation Bar at the top (dark blue) -->
+  <nav id="main-navbar">
+    <div id="school-name">
+      <p>MARIKINA SCIENCE HIGH SCHOOL</p>
+    </div>
+    <nav id="navbar-buttons">
+      <ul>
+        <li><a href="">About Us</a></li>
+        <li><a href="">News & Updates</a></li>
+        <li><a href="">Programs</a></li>
+        <li><a href="">Contact</a></li>
+        <li><button class="apply-now">Apply Now</button></li>
+      </ul>
+    </nav>
+  </nav>
+
+  <!-- Hero -->
+  <div id="hero">
+    <div id="origin">
+      <p>―― MARIKINA CITY, PHILIPPINES · EST. 2002</p>
+    </div>
+
+    <div class="motto">
+      <p class="motto text">Where Excellence Meets Discipline And Good Taste</p>
+      <p class="motto about">Marikina Science High School nurtures the most gifted young minds in Marikina City through rigorous science and mathematics education, developing the next generation of Filipino scientists, engineers, and innovators.</p>
+      <button class="motto apply-now">Apply for Admission →</button>
+      <button class="motto discover">Discover MSHS</button>
+    </div>
+  </div>
+
+  <!-- PPS. Not sure if we should make the Navbar + Hero into one div -->
+  <!-- ToDo: Add folder in repo for the link to other html pages in navbar (eg. About, Apply Now, etc) -->
+
   <script src="script.js"></script>
 </body>
 </html>
