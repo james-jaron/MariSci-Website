@@ -1,4 +1,4 @@
-## Project Plan | The website must contain the following:
+## The website must contain the following:
 **about us section**
 - school profile
 - current faculty (placeholder)
